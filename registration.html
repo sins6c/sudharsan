@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            background-color:rgb(106, 255, 205);
+            align-content: center;
+            justify-content: center;
+
+        }
+
+        form {
+           text-align: center;
+        }
+
+        div {
+            align-content: center;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 10%;
+            border-radius: 50em;
+        }
+        input{
+            display: inline-block;
+            
+            padding: 3px;
+            
+            line-height: 1.5;
+            color: #495057;
+            border-radius: 50em;
+            
+        }
+        p {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+       
+
+                
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Registration Page</h1>
+
+    </div>
+    <form>
+        <div>
+            <label>First Name</label>
+            <input type="text" minlength="4" required placeholder=" first name">
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" minlength="1" required placeholder="last name">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="Email" required placeholder="email">
+        </div>
+        <div>
+            <label>Phone number</label>
+            <input type="tel" minlength="10" maxlength="10" required placeholder="Pho number">
+        </div>
+        <div>
+            <label>Date of Birth</label>
+            <input type="date" required>
+        </div>
+
+        
+        <div>
+            <label for="password">Password</label >
+            <input type="password" id="password" name="password" minlength="6" required placeholder="password">
+        </div>
+        <div>
+            <label for="password">Confirm Password</label>
+            <input type="password" id="password" name="password" minlength="6" required placeholder="re-enter">
+        </div>
+        <button>Submit</button>
+    </form>
+    <p>Lets start</p>
+</body>
+</html>
